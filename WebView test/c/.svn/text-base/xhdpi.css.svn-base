@@ -1,0 +1,32 @@
+.arrow {
+	background-image: url('../i/arrow@2.png');
+}
+#menu-fketv {
+	background-image: url(i/menu-fketv-xhdpi.jpg);
+}
+#menu-fkelive {
+	background-image: url(i/menu-fkelive-xhdpi.jpg);
+}
+#menu-galleries {
+	background-image: url(i/menu-galleries-xhdpi.jpg);
+}
+#menu-fkemobile {
+	background-image: url(i/menu-fkemobile-xhdpi.jpg);
+}
+
+.gimage {
+	width: 80px;
+	height: 80px;
+}
+#geeks {
+	width: 200px;
+	height: 344px;
+}
+#stadiumas {
+	width: 360px;
+	height: 194px;
+}
+#sponsors {
+	width: 338px;
+	height: 380px;
+}

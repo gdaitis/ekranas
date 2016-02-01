@@ -1,0 +1,61 @@
+.arrow {
+	background-image: url('../i/arrow@2.png');
+}
+.gimage {
+	background: url(../i/no-xhdpi.png);
+}
+#menu-fketv {
+	background-image: url(../i/menu-fketv-xhdpi.jpg);
+}
+#menu-fkelive {
+	background-image: url(../i/menu-fkelive-xhdpi.jpg);
+}
+#menu-galleries {
+	background-image: url(../i/menu-galleries-xhdpi.jpg);
+}
+#menu-fkemobile {
+	background-image: url(../i/menu-fkemobile-xhdpi.jpg);
+}
+
+#menu-team {
+	background-image: url(../i/menu-team-xhdpi.jpg);
+}
+#menu-calendar {
+	background-image: url(../i/menu-calendar-xhdpi.jpg);
+}
+#menu-tables {
+	background-image: url(../i/menu-tables-xhdpi.jpg);
+}
+#menu-tickets {
+	background-image: url(../i/menu-tickets-xhdpi.jpg);
+}
+
+#menu-history {
+	background-image: url(../i/menu-history-xhdpi.jpg);
+}
+#menu-stadium {
+	background-image: url(../i/menu-stadium-xhdpi.jpg);
+}
+#menu-administration {
+	background-image: url(../i/menu-administration-xhdpi.jpg);
+}
+#menu-sponsors {
+	background-image: url(../i/menu-sponsors-xhdpi.jpg);
+}
+
+.gimage {
+	width: 80px;
+	height: 80px;
+}
+#geeks {
+	width: 200px;
+	height: 172px;
+}
+#stadiumas {
+	width: 360px;
+	height: 194px;
+}
+#sponsors {
+	width: 338px;
+	height: 380px;
+}

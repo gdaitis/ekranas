@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09592DEF13FA95370048C2B5 /* TablesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09592DEE13FA95360048C2B5 /* TablesViewController.xib */; };
+		783DBC8713E9A2F800A6AB73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DBC8613E9A2F800A6AB73 /* UIKit.framework */; };
+		783DBC8913E9A2F800A6AB73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DBC8813E9A2F800A6AB73 /* Foundation.framework */; };
+		783DBC8B13E9A2F800A6AB73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 783DBC8A13E9A2F800A6AB73 /* CoreGraphics.framework */; };
+		783DBC9113E9A2F800A6AB73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 783DBC8F13E9A2F800A6AB73 /* InfoPlist.strings */; };
+		783DBC9413E9A2F800A6AB73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBC9313E9A2F800A6AB73 /* main.m */; };
+		783DBC9713E9A2F800A6AB73 /* FK_EkranasAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBC9613E9A2F800A6AB73 /* FK_EkranasAppDelegate.m */; };
+		783DBC9A13E9A2F800A6AB73 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783DBC9813E9A2F800A6AB73 /* MainWindow.xib */; };
+		783DBCB213E9AAF400A6AB73 /* TablesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCB013E9AAF400A6AB73 /* TablesViewController.m */; };
+		783DBCB713E9B18900A6AB73 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCB513E9B18900A6AB73 /* BaseViewController.m */; };
+		783DBCC213E9B7A800A6AB73 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 783DBCC113E9B7A800A6AB73 /* www */; };
+		783DBCE613E9BC8900A6AB73 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCCE13E9BC8900A6AB73 /* NSObject+SBJson.m */; };
+		783DBCE713E9BC8900A6AB73 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCD113E9BC8900A6AB73 /* SBJsonParser.m */; };
+		783DBCE813E9BC8900A6AB73 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCD313E9BC8900A6AB73 /* SBJsonStreamParser.m */; };
+		783DBCE913E9BC8900A6AB73 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCD513E9BC8900A6AB73 /* SBJsonStreamParserAccumulator.m */; };
+		783DBCEA13E9BC8900A6AB73 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCD713E9BC8900A6AB73 /* SBJsonStreamParserAdapter.m */; };
+		783DBCEB13E9BC8900A6AB73 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCD913E9BC8900A6AB73 /* SBJsonStreamParserState.m */; };
+		783DBCEC13E9BC8900A6AB73 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCDB13E9BC8900A6AB73 /* SBJsonStreamWriter.m */; };
+		783DBCED13E9BC8900A6AB73 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCDD13E9BC8900A6AB73 /* SBJsonStreamWriterAccumulator.m */; };
+		783DBCEE13E9BC8900A6AB73 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCDF13E9BC8900A6AB73 /* SBJsonStreamWriterState.m */; };
+		783DBCEF13E9BC8900A6AB73 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCE113E9BC8900A6AB73 /* SBJsonTokeniser.m */; };
+		783DBCF013E9BC8900A6AB73 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCE313E9BC8900A6AB73 /* SBJsonUTF8Stream.m */; };
+		783DBCF113E9BC8900A6AB73 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCE513E9BC8900A6AB73 /* SBJsonWriter.m */; };
+		783DBCFD13E9D5DA00A6AB73 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 783DBCFB13E9D5DA00A6AB73 /* HomeViewController.m */; };
+		783DBCFE13E9D5DA00A6AB73 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 783DBCFC13E9D5DA00A6AB73 /* HomeViewController.xib */; };
+		783DBD0513E9D88400A6AB73 /* graphics in Resources */ = {isa = PBXBuildFile; fileRef = 783DBD0413E9D88300A6AB73 /* graphics */; };
+		783DBD0713E9D96700A6AB73 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 783DBD0613E9D96700A6AB73 /* Default.png */; };
+		783DBD0913E9D96F00A6AB73 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 783DBD0813E9D96F00A6AB73 /* Default@2x.png */; };
+		78998F6A13EAAE9100D7BE11 /* GenericViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78998F6813EAAE9100D7BE11 /* GenericViewController.m */; };
+		78998F6B13EAAE9100D7BE11 /* GenericViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78998F6913EAAE9100D7BE11 /* GenericViewController.xib */; };
+		78998F7013EAB9E700D7BE11 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78998F6E13EAB9E600D7BE11 /* MenuViewController.m */; };
+		78998F7113EAB9E700D7BE11 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78998F6F13EAB9E600D7BE11 /* MenuViewController.xib */; };
+		AD12EF0E13FBAC84006B75BD /* Ekranas_launcher_icon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = AD12EF0D13FBAC84006B75BD /* Ekranas_launcher_icon_57x57.png */; };
+		AD12EF1113FBAC88006B75BD /* Ekranas_launcher_icon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = AD12EF1013FBAC88006B75BD /* Ekranas_launcher_icon_114x114.png */; };
+		AD7F13A513F29E0800F9D602 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F13A413F29E0800F9D602 /* MediaPlayer.framework */; };
+		AD7F13A813F2A99200F9D602 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7F13A713F2A99200F9D602 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09592DEE13FA95360048C2B5 /* TablesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TablesViewController.xib; sourceTree = "<group>"; };
+		783DBC8213E9A2F800A6AB73 /* FK Ekranas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FK Ekranas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		783DBC8613E9A2F800A6AB73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		783DBC8813E9A2F800A6AB73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		783DBC8A13E9A2F800A6AB73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		783DBC8E13E9A2F800A6AB73 /* FK Ekranas-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FK Ekranas-Info.plist"; sourceTree = "<group>"; };
+		783DBC9013E9A2F800A6AB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		783DBC9213E9A2F800A6AB73 /* FK Ekranas-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FK Ekranas-Prefix.pch"; sourceTree = "<group>"; };
+		783DBC9313E9A2F800A6AB73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		783DBC9513E9A2F800A6AB73 /* FK_EkranasAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FK_EkranasAppDelegate.h; sourceTree = "<group>"; };
+		783DBC9613E9A2F800A6AB73 /* FK_EkranasAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FK_EkranasAppDelegate.m; sourceTree = "<group>"; };
+		783DBC9913E9A2F800A6AB73 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		783DBCAF13E9AAF400A6AB73 /* TablesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TablesViewController.h; sourceTree = "<group>"; };
+		783DBCB013E9AAF400A6AB73 /* TablesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TablesViewController.m; sourceTree = "<group>"; };
+		783DBCB413E9B18900A6AB73 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		783DBCB513E9B18900A6AB73 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		783DBCC113E9B7A800A6AB73 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		783DBCCC13E9BC8900A6AB73 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		783DBCCD13E9BC8900A6AB73 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		783DBCCE13E9BC8900A6AB73 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		783DBCCF13E9BC8900A6AB73 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		783DBCD013E9BC8900A6AB73 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		783DBCD113E9BC8900A6AB73 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		783DBCD213E9BC8900A6AB73 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		783DBCD313E9BC8900A6AB73 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		783DBCD413E9BC8900A6AB73 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		783DBCD513E9BC8900A6AB73 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		783DBCD613E9BC8900A6AB73 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		783DBCD713E9BC8900A6AB73 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		783DBCD813E9BC8900A6AB73 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		783DBCD913E9BC8900A6AB73 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		783DBCDA13E9BC8900A6AB73 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		783DBCDB13E9BC8900A6AB73 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		783DBCDC13E9BC8900A6AB73 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		783DBCDD13E9BC8900A6AB73 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		783DBCDE13E9BC8900A6AB73 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		783DBCDF13E9BC8900A6AB73 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		783DBCE013E9BC8900A6AB73 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		783DBCE113E9BC8900A6AB73 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		783DBCE213E9BC8900A6AB73 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		783DBCE313E9BC8900A6AB73 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		783DBCE413E9BC8900A6AB73 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		783DBCE513E9BC8900A6AB73 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		783DBCFA13E9D5DA00A6AB73 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		783DBCFB13E9D5DA00A6AB73 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		783DBCFC13E9D5DA00A6AB73 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		783DBD0413E9D88300A6AB73 /* graphics */ = {isa = PBXFileReference; lastKnownFileType = folder; path = graphics; sourceTree = "<group>"; };
+		783DBD0613E9D96700A6AB73 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		783DBD0813E9D96F00A6AB73 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		78998F6713EAAE9100D7BE11 /* GenericViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericViewController.h; sourceTree = "<group>"; };
+		78998F6813EAAE9100D7BE11 /* GenericViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericViewController.m; sourceTree = "<group>"; };
+		78998F6913EAAE9100D7BE11 /* GenericViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GenericViewController.xib; sourceTree = "<group>"; };
+		78998F6D13EAB9E600D7BE11 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		78998F6E13EAB9E600D7BE11 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		78998F6F13EAB9E600D7BE11 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		AD12EF0D13FBAC84006B75BD /* Ekranas_launcher_icon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ekranas_launcher_icon_57x57.png; sourceTree = "<group>"; };
+		AD12EF1013FBAC88006B75BD /* Ekranas_launcher_icon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ekranas_launcher_icon_114x114.png; sourceTree = "<group>"; };
+		AD7F13A413F29E0800F9D602 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		AD7F13A713F2A99200F9D602 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		783DBC7F13E9A2F800A6AB73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7F13A813F2A99200F9D602 /* MessageUI.framework in Frameworks */,
+				AD7F13A513F29E0800F9D602 /* MediaPlayer.framework in Frameworks */,
+				783DBC8713E9A2F800A6AB73 /* UIKit.framework in Frameworks */,
+				783DBC8913E9A2F800A6AB73 /* Foundation.framework in Frameworks */,
+				783DBC8B13E9A2F800A6AB73 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		783DBC7713E9A2F700A6AB73 = {
+			isa = PBXGroup;
+			children = (
+				AD12EF1013FBAC88006B75BD /* Ekranas_launcher_icon_114x114.png */,
+				AD12EF0D13FBAC84006B75BD /* Ekranas_launcher_icon_57x57.png */,
+				783DBD0813E9D96F00A6AB73 /* Default@2x.png */,
+				783DBD0613E9D96700A6AB73 /* Default.png */,
+				783DBD0413E9D88300A6AB73 /* graphics */,
+				783DBCC113E9B7A800A6AB73 /* www */,
+				783DBC8C13E9A2F800A6AB73 /* FK Ekranas */,
+				783DBC8513E9A2F800A6AB73 /* Frameworks */,
+				783DBC8313E9A2F800A6AB73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		783DBC8313E9A2F800A6AB73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				783DBC8213E9A2F800A6AB73 /* FK Ekranas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		783DBC8513E9A2F800A6AB73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD7F13A713F2A99200F9D602 /* MessageUI.framework */,
+				AD7F13A413F29E0800F9D602 /* MediaPlayer.framework */,
+				783DBC8613E9A2F800A6AB73 /* UIKit.framework */,
+				783DBC8813E9A2F800A6AB73 /* Foundation.framework */,
+				783DBC8A13E9A2F800A6AB73 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		783DBC8C13E9A2F800A6AB73 /* FK Ekranas */ = {
+			isa = PBXGroup;
+			children = (
+				783DBCCB13E9BC8900A6AB73 /* JSON */,
+				783DBC9513E9A2F800A6AB73 /* FK_EkranasAppDelegate.h */,
+				783DBC9613E9A2F800A6AB73 /* FK_EkranasAppDelegate.m */,
+				783DBC9813E9A2F800A6AB73 /* MainWindow.xib */,
+				783DBC8D13E9A2F800A6AB73 /* Supporting Files */,
+				783DBCAF13E9AAF400A6AB73 /* TablesViewController.h */,
+				783DBCB013E9AAF400A6AB73 /* TablesViewController.m */,
+				09592DEE13FA95360048C2B5 /* TablesViewController.xib */,
+				783DBCB413E9B18900A6AB73 /* BaseViewController.h */,
+				783DBCB513E9B18900A6AB73 /* BaseViewController.m */,
+				783DBCFA13E9D5DA00A6AB73 /* HomeViewController.h */,
+				783DBCFB13E9D5DA00A6AB73 /* HomeViewController.m */,
+				783DBCFC13E9D5DA00A6AB73 /* HomeViewController.xib */,
+				78998F6713EAAE9100D7BE11 /* GenericViewController.h */,
+				78998F6813EAAE9100D7BE11 /* GenericViewController.m */,
+				78998F6913EAAE9100D7BE11 /* GenericViewController.xib */,
+				78998F6D13EAB9E600D7BE11 /* MenuViewController.h */,
+				78998F6E13EAB9E600D7BE11 /* MenuViewController.m */,
+				78998F6F13EAB9E600D7BE11 /* MenuViewController.xib */,
+			);
+			path = "FK Ekranas";
+			sourceTree = "<group>";
+		};
+		783DBC8D13E9A2F800A6AB73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				783DBC8E13E9A2F800A6AB73 /* FK Ekranas-Info.plist */,
+				783DBC8F13E9A2F800A6AB73 /* InfoPlist.strings */,
+				783DBC9213E9A2F800A6AB73 /* FK Ekranas-Prefix.pch */,
+				783DBC9313E9A2F800A6AB73 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		783DBCCB13E9BC8900A6AB73 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				783DBCCC13E9BC8900A6AB73 /* JSON.h */,
+				783DBCCD13E9BC8900A6AB73 /* NSObject+SBJson.h */,
+				783DBCCE13E9BC8900A6AB73 /* NSObject+SBJson.m */,
+				783DBCCF13E9BC8900A6AB73 /* SBJson.h */,
+				783DBCD013E9BC8900A6AB73 /* SBJsonParser.h */,
+				783DBCD113E9BC8900A6AB73 /* SBJsonParser.m */,
+				783DBCD213E9BC8900A6AB73 /* SBJsonStreamParser.h */,
+				783DBCD313E9BC8900A6AB73 /* SBJsonStreamParser.m */,
+				783DBCD413E9BC8900A6AB73 /* SBJsonStreamParserAccumulator.h */,
+				783DBCD513E9BC8900A6AB73 /* SBJsonStreamParserAccumulator.m */,
+				783DBCD613E9BC8900A6AB73 /* SBJsonStreamParserAdapter.h */,
+				783DBCD713E9BC8900A6AB73 /* SBJsonStreamParserAdapter.m */,
+				783DBCD813E9BC8900A6AB73 /* SBJsonStreamParserState.h */,
+				783DBCD913E9BC8900A6AB73 /* SBJsonStreamParserState.m */,
+				783DBCDA13E9BC8900A6AB73 /* SBJsonStreamWriter.h */,
+				783DBCDB13E9BC8900A6AB73 /* SBJsonStreamWriter.m */,
+				783DBCDC13E9BC8900A6AB73 /* SBJsonStreamWriterAccumulator.h */,
+				783DBCDD13E9BC8900A6AB73 /* SBJsonStreamWriterAccumulator.m */,
+				783DBCDE13E9BC8900A6AB73 /* SBJsonStreamWriterState.h */,
+				783DBCDF13E9BC8900A6AB73 /* SBJsonStreamWriterState.m */,
+				783DBCE013E9BC8900A6AB73 /* SBJsonTokeniser.h */,
+				783DBCE113E9BC8900A6AB73 /* SBJsonTokeniser.m */,
+				783DBCE213E9BC8900A6AB73 /* SBJsonUTF8Stream.h */,
+				783DBCE313E9BC8900A6AB73 /* SBJsonUTF8Stream.m */,
+				783DBCE413E9BC8900A6AB73 /* SBJsonWriter.h */,
+				783DBCE513E9BC8900A6AB73 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		783DBC8113E9A2F800A6AB73 /* FK Ekranas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 783DBCA913E9A2F800A6AB73 /* Build configuration list for PBXNativeTarget "FK Ekranas" */;
+			buildPhases = (
+				783DBC7E13E9A2F800A6AB73 /* Sources */,
+				783DBC7F13E9A2F800A6AB73 /* Frameworks */,
+				783DBC8013E9A2F800A6AB73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FK Ekranas";
+			productName = "FK Ekranas";
+			productReference = 783DBC8213E9A2F800A6AB73 /* FK Ekranas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		783DBC7913E9A2F700A6AB73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Baltic Web Studio";
+			};
+			buildConfigurationList = 783DBC7C13E9A2F700A6AB73 /* Build configuration list for PBXProject "FK Ekranas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 783DBC7713E9A2F700A6AB73;
+			productRefGroup = 783DBC8313E9A2F800A6AB73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				783DBC8113E9A2F800A6AB73 /* FK Ekranas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		783DBC8013E9A2F800A6AB73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783DBC9113E9A2F800A6AB73 /* InfoPlist.strings in Resources */,
+				783DBC9A13E9A2F800A6AB73 /* MainWindow.xib in Resources */,
+				783DBCC213E9B7A800A6AB73 /* www in Resources */,
+				783DBCFE13E9D5DA00A6AB73 /* HomeViewController.xib in Resources */,
+				783DBD0513E9D88400A6AB73 /* graphics in Resources */,
+				783DBD0713E9D96700A6AB73 /* Default.png in Resources */,
+				783DBD0913E9D96F00A6AB73 /* Default@2x.png in Resources */,
+				78998F6B13EAAE9100D7BE11 /* GenericViewController.xib in Resources */,
+				78998F7113EAB9E700D7BE11 /* MenuViewController.xib in Resources */,
+				09592DEF13FA95370048C2B5 /* TablesViewController.xib in Resources */,
+				AD12EF0E13FBAC84006B75BD /* Ekranas_launcher_icon_57x57.png in Resources */,
+				AD12EF1113FBAC88006B75BD /* Ekranas_launcher_icon_114x114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		783DBC7E13E9A2F800A6AB73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783DBC9413E9A2F800A6AB73 /* main.m in Sources */,
+				783DBC9713E9A2F800A6AB73 /* FK_EkranasAppDelegate.m in Sources */,
+				783DBCB213E9AAF400A6AB73 /* TablesViewController.m in Sources */,
+				783DBCB713E9B18900A6AB73 /* BaseViewController.m in Sources */,
+				783DBCE613E9BC8900A6AB73 /* NSObject+SBJson.m in Sources */,
+				783DBCE713E9BC8900A6AB73 /* SBJsonParser.m in Sources */,
+				783DBCE813E9BC8900A6AB73 /* SBJsonStreamParser.m in Sources */,
+				783DBCE913E9BC8900A6AB73 /* SBJsonStreamParserAccumulator.m in Sources */,
+				783DBCEA13E9BC8900A6AB73 /* SBJsonStreamParserAdapter.m in Sources */,
+				783DBCEB13E9BC8900A6AB73 /* SBJsonStreamParserState.m in Sources */,
+				783DBCEC13E9BC8900A6AB73 /* SBJsonStreamWriter.m in Sources */,
+				783DBCED13E9BC8900A6AB73 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				783DBCEE13E9BC8900A6AB73 /* SBJsonStreamWriterState.m in Sources */,
+				783DBCEF13E9BC8900A6AB73 /* SBJsonTokeniser.m in Sources */,
+				783DBCF013E9BC8900A6AB73 /* SBJsonUTF8Stream.m in Sources */,
+				783DBCF113E9BC8900A6AB73 /* SBJsonWriter.m in Sources */,
+				783DBCFD13E9D5DA00A6AB73 /* HomeViewController.m in Sources */,
+				78998F6A13EAAE9100D7BE11 /* GenericViewController.m in Sources */,
+				78998F7013EAB9E700D7BE11 /* MenuViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		783DBC8F13E9A2F800A6AB73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783DBC9013E9A2F800A6AB73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		783DBC9813E9A2F800A6AB73 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				783DBC9913E9A2F800A6AB73 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		783DBCA713E9A2F800A6AB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		783DBCA813E9A2F800A6AB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		783DBCAA13E9A2F800A6AB73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FK Ekranas/FK Ekranas-Prefix.pch";
+				INFOPLIST_FILE = "FK Ekranas/FK Ekranas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		783DBCAB13E9A2F800A6AB73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FK Ekranas/FK Ekranas-Prefix.pch";
+				INFOPLIST_FILE = "FK Ekranas/FK Ekranas-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		783DBC7C13E9A2F700A6AB73 /* Build configuration list for PBXProject "FK Ekranas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783DBCA713E9A2F800A6AB73 /* Debug */,
+				783DBCA813E9A2F800A6AB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		783DBCA913E9A2F800A6AB73 /* Build configuration list for PBXNativeTarget "FK Ekranas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				783DBCAA13E9A2F800A6AB73 /* Debug */,
+				783DBCAB13E9A2F800A6AB73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 783DBC7913E9A2F700A6AB73 /* Project object */;
+}

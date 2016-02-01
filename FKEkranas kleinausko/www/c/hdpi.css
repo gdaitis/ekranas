@@ -1,0 +1,254 @@
+body, html {
+	font-size: 22px;
+	line-height: 27px;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 50px;
+}
+
+.gimage {
+	width: 120px;
+	height: 120px;
+	background: url(../i/no-hdpi.png);
+	background-size: 120px 120px;
+}
+
+.arrow {
+	background-image: url(../i/arrow-high-dpi.png);
+	background-size: 60px 45px;
+}
+.news {
+	height: 90px;
+}
+.list .arrow {
+	height: 90px;
+}
+.news .info {
+	font-size: 16px;
+	padding: 3px 30px 0;
+	margin-left: 135px;
+}
+.title {
+	margin-left: 135px;
+	padding: 0 75px 0 30px;
+	font-size: 18px;
+}
+
+.list img {
+	width: 135px;
+	height: 90px;
+}
+
+
+.mainmenu {
+	width: 450px;
+	color: #fff;
+	margin: 0 auto;
+}
+.mainmenu .item {
+	padding: 2px;
+	margin: 3px;
+	background: #fff;
+	-webkit-border-radius: 5px;
+	width: 210px;
+	color: #333;
+	text-align: center;
+	display: inline-block;
+	line-height: 42px;
+}
+.menu-img {
+	width: 210px;
+	height: 120px;
+	background-size: 210px 120px;
+}
+#menu-fketv {
+	background-image: url(../i/menu-fketv-hdpi.jpg);
+}
+#menu-fkelive {
+	background-image: url(../i/menu-fkelive-hdpi.jpg);
+}
+#menu-galleries {
+	background-image: url(../i/menu-galleries-hdpi.jpg);
+}
+#menu-fkemobile {
+	background-image: url(../i/menu-fkemobile-hdpi.jpg);
+}
+#menu-team {
+	background-image: url(../i/menu-team-hdpi.jpg);
+}
+#menu-calendar {
+	background-image: url(../i/menu-calendar-hdpi.jpg);
+}
+#menu-tables {
+	background-image: url(../i/menu-tables-hdpi.jpg);
+}
+#menu-tickets {
+	background-image: url(../i/menu-tickets-hdpi.jpg);
+}
+#menu-history {
+	background-image: url(../i/menu-history-hdpi.jpg);
+}
+#menu-stadium {
+	background-image: url(../i/menu-stadium-hdpi.jpg);
+}
+#menu-administration {
+	background-image: url(../i/menu-administration-hdpi.jpg);
+}
+#menu-sponsors {
+	background-image: url(../i/menu-sponsors-hdpi.jpg);
+}
+
+.more-item {
+	line-height: 75px;
+}
+.more .arrow {
+	background-image: url(../i/arrow-grey-hdpi.png);
+	background-size: 30px 23px;
+	height: 75px;
+}
+
+.more-item-img {
+	width: 45px;
+	height: 45px;
+	margin: 15px;
+	background-size: 45px 45px;
+}
+.more-mail {
+	background-image: url(../i/mail-hdpi.png);
+}
+.more-link {
+	background-image: url(../i/link-hdpi.png);
+}
+.more-tools {
+	background-image: url(../i/tools-hdpi.png);
+}
+
+.article {
+	padding: 15px;
+}
+.article-date {
+	font-size: 19px;
+	padding: 0 15px;
+}
+.article-title {
+	font-size: 24px;
+}
+
+.team-role {
+	padding: 3px 15px;
+}
+.players-list-item {
+	height: 75px;
+	line-height: 75px;
+}
+.players-list-item .arrow {
+	height: 75px;
+}
+.players-list-item img {
+	width: 75px;
+	height: 75px;
+	margin-right: 15px;
+}
+
+.player {
+	padding: 15px;
+}
+.player-name {
+	font-size: 21px;
+	line-height: 60px;
+}
+
+.calendar {
+	padding: 4px;
+}
+.month {
+	padding: 3px 0 3px 30px;
+	font-size: 18px;
+}
+.match {
+	margin: 4px 0;
+	-webkit-border-radius: 6px;
+}
+.match-type {
+	font-size: 18px;
+	line-height: 18px;
+}
+.match-date {
+	font-size: 16px;
+	line-height: 16px;
+}
+.match-numbers {
+	font-size: 30px;
+	line-height: 45px;
+}
+.match-team {
+	width: 120px;
+	font-size: 16px;
+	line-height: 16px;
+}
+.match-team img {
+	width: 60px;
+	height: 60px;
+}
+
+.tableimg {
+	width: 45px;
+}
+.table img {
+	width: 45px;
+	height: 45px;
+}
+
+.load-more {
+	height: 90px;
+	line-height: 90px;
+}
+
+.button {
+	border-radius: 15px;
+	padding: 15px;
+	margin: 7px 7px;
+	font-size: 27px;
+	width: 135px;
+}
+.buy {
+	font-size: 27px;
+	margin: 15px auto;
+	width: auto;
+}
+.aboutsms {
+	font-size: 15px;
+}
+
+
+
+.live-head {
+	height: 45px;
+	padding: 15px 0;
+}
+.live-head .teams {
+	padding: 0 7px;
+	height: 45px;
+}
+.live-head .teams span {
+	line-height: 45px;
+}
+.live-score {
+	height: 75px;
+}
+.live-score span{
+	margin: 6px 0;
+	-webkit-border-radius: 15px;
+	font-size: 36px;
+	line-height: 60px;
+	padding: 0 22px;
+}
+.live-item {
+	padding: 4px 7px;
+	font-size: 19px;
+}
